@@ -1,0 +1,28 @@
+.calculator-container {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.output-screen {
+  background-color: #a4a09d;
+  text-align: end;
+  padding: 20px;
+}
+
+.numbers-container {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.numbers td {
+  border: 1px solid #d9d6d6;
+  text-align: center;
+  padding: 20px;
+}
+
+.orangeBg {
+  background-color: #ea833d;
+}
