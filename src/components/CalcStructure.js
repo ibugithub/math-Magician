@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
+import Button from './button';
 
 const CalcStructure = () => {
   const [result, setResult] = useState('0');
@@ -40,107 +41,69 @@ const CalcStructure = () => {
         <tbody>
           <tr className="numbers">
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                AC
-              </button>
+              <Button click={handleButtonClick} text="AC" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                +/-
-              </button>
+              <Button click={handleButtonClick} text="+/-" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                %
-              </button>
+              <Button click={handleButtonClick} text="%" />
             </td>
             <td className="orangeBg">
-              <button type="button" onClick={handleButtonClick}>
-                ÷
-              </button>
+              <Button click={handleButtonClick} text="÷" />
             </td>
           </tr>
           <tr className="numbers">
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                7
-              </button>
+              <Button click={handleButtonClick} text="7" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                8
-              </button>
+              <Button click={handleButtonClick} text="8" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                9
-              </button>
+              <Button click={handleButtonClick} text="9" />
             </td>
             <td className="orangeBg">
-              <button type="button" onClick={handleButtonClick}>
-                x
-              </button>
+              <Button click={handleButtonClick} text="x" />
             </td>
           </tr>
           <tr className="numbers">
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                4
-              </button>
+              <Button click={handleButtonClick} text="4" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                5
-              </button>
+              <Button click={handleButtonClick} text="5" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                6
-              </button>
+              <Button click={handleButtonClick} text="6" />
             </td>
             <td className="orangeBg">
-              <button type="button" onClick={handleButtonClick}>
-                -
-              </button>
+              <Button click={handleButtonClick} text="-" />
             </td>
           </tr>
           <tr className="numbers">
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                1
-              </button>
+              <Button click={handleButtonClick} text="1" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                2
-              </button>
+              <Button click={handleButtonClick} text="2" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                3
-              </button>
+              <Button click={handleButtonClick} text="3" />
             </td>
             <td className="orangeBg">
-              <button type="button" onClick={handleButtonClick}>
-                +
-              </button>
+              <Button click={handleButtonClick} text="+" />
             </td>
           </tr>
           <tr className="numbers">
             <td colSpan="2">
-              <button type="button" onClick={handleButtonClick}>
-                0
-              </button>
+              <Button click={handleButtonClick} text="0" />
             </td>
             <td>
-              <button type="button" onClick={handleButtonClick}>
-                .
-              </button>
+              <Button click={handleButtonClick} text="." />
             </td>
             <td className="orangeBg">
-              <button type="button" onClick={handleButtonClick}>
-                =
-              </button>
+              <Button click={handleButtonClick} text="=" />
             </td>
           </tr>
         </tbody>
