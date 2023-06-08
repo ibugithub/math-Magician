@@ -20,9 +20,15 @@
 .numbers td {
   border: 1px solid #d9d6d6;
   text-align: center;
-  padding: 20px;
 }
 
 .orangeBg {
   background-color: #ea833d;
+}
+
+button {
+  border: unset;
+  background-color: transparent;
+  width: 100%;
+  padding: 20px;
 }
