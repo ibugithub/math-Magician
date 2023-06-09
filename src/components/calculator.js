@@ -1,5 +1,5 @@
 import CalcStructure from './CalcStructure';
-import './calculator.css';
+import '../css/calculator.css';
 
 const Calculator = () => (
   <div className="calculator-container">
