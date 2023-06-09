@@ -1,4 +1,4 @@
-# Portfolio<a name="readme-top"></a>
+# Math Magician <a name="readme-top"></a>
 
 <div align="center">
   <h1> Math Magician | README </h1>
@@ -52,7 +52,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](https://ibugithub.github.io/math-Magician/)
+- [Live Demo Link]()
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
