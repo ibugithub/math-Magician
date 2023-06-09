@@ -1,5 +1,3 @@
-# Math Magician <a name="readme-top"></a>
-
 <div align="center">
   <h1> Math Magician | README </h1>
   <br/>
