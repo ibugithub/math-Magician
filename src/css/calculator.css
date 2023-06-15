@@ -1,9 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .calculator-container {
-  max-width: 500px;
-  margin: auto;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .output-screen {
@@ -29,6 +32,14 @@
 button {
   border: unset;
   background-color: transparent;
-  width: 100%;
   padding: 20px;
+}
+
+.calcBody {
+  width: 60%;
+  position: relative;
+  min-width: 230px;
+}
+.width40pr {
+  width: 40%;
 }
