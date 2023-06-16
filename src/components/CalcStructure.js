@@ -33,82 +33,86 @@ const CalcStructure = () => {
   };
 
   return (
-    <div>
-      <div className="output-screen">
-        {result}
+    <div className="container">
+      <h3 className="width40pr">Lets Do some math</h3>
+      <div className="calcBody">
+        <div className="output-screen">
+          {result}
+        </div>
+        <table className="numbers-container">
+          <tbody>
+            <tr className="numbers">
+              <td>
+                <Button click={handleButtonClick} text="AC" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="+/-" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="%" />
+              </td>
+              <td className="orangeBg">
+                <Button click={handleButtonClick} text="÷" />
+              </td>
+            </tr>
+            <tr className="numbers">
+              <td>
+                <Button click={handleButtonClick} text="7" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="8" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="9" />
+              </td>
+              <td className="orangeBg">
+                <Button click={handleButtonClick} text="x" />
+              </td>
+            </tr>
+            <tr className="numbers">
+              <td>
+                <Button click={handleButtonClick} text="4" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="5" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="6" />
+              </td>
+              <td className="orangeBg">
+                <Button click={handleButtonClick} text="-" />
+              </td>
+            </tr>
+            <tr className="numbers">
+              <td>
+                <Button click={handleButtonClick} text="1" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="2" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="3" />
+              </td>
+              <td className="orangeBg">
+                <Button click={handleButtonClick} text="+" />
+              </td>
+            </tr>
+            <tr className="numbers">
+              <td colSpan="2">
+                <Button click={handleButtonClick} text="0" />
+              </td>
+              <td>
+                <Button click={handleButtonClick} text="." />
+              </td>
+              <td className="orangeBg">
+                <Button click={handleButtonClick} text="=" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <table className="numbers-container">
-        <tbody>
-          <tr className="numbers">
-            <td>
-              <Button click={handleButtonClick} text="AC" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="+/-" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="%" />
-            </td>
-            <td className="orangeBg">
-              <Button click={handleButtonClick} text="÷" />
-            </td>
-          </tr>
-          <tr className="numbers">
-            <td>
-              <Button click={handleButtonClick} text="7" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="8" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="9" />
-            </td>
-            <td className="orangeBg">
-              <Button click={handleButtonClick} text="x" />
-            </td>
-          </tr>
-          <tr className="numbers">
-            <td>
-              <Button click={handleButtonClick} text="4" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="5" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="6" />
-            </td>
-            <td className="orangeBg">
-              <Button click={handleButtonClick} text="-" />
-            </td>
-          </tr>
-          <tr className="numbers">
-            <td>
-              <Button click={handleButtonClick} text="1" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="2" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="3" />
-            </td>
-            <td className="orangeBg">
-              <Button click={handleButtonClick} text="+" />
-            </td>
-          </tr>
-          <tr className="numbers">
-            <td colSpan="2">
-              <Button click={handleButtonClick} text="0" />
-            </td>
-            <td>
-              <Button click={handleButtonClick} text="." />
-            </td>
-            <td className="orangeBg">
-              <Button click={handleButtonClick} text="=" />
-            </td>
-          </tr>
-        </tbody>
-      </table>
     </div>
+
   );
 };
 
